@@ -34,7 +34,7 @@ volatile int countint = 0;
 
 volatile int len;
 volatile int len2;
-char str[] = "doge eat doge world";
+char str[] = "doge eat doge world\0";
 int lel[3];
 // Port which both channels are connected to
 #define CH_PORT GPIO_PORT_P2
